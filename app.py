@@ -7,7 +7,7 @@ def home():
     return """
     <h1>Devops CI/CD Project </h1>
     <h2>Deployed on EC2 </h2>
-    <p>Version:2.0- CI/CD Deployment</p>
+    <p>Version:3.0- Automatic Deployment</p>
     """
 @app.route("/health")
 def health():
